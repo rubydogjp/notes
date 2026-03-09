@@ -1,0 +1,31 @@
+{
+  "workbench.colorCustomizations": {
+    // タイトルバー — 白背景に黒文字
+    "titleBar.activeBackground": "#FFFFFF",
+    "titleBar.activeForeground": "#333333",
+    "titleBar.inactiveBackground": "#F5F5F5",
+    "titleBar.inactiveForeground": "#33333380",
+
+    // ステータスバー — 白背景に黒文字
+    "statusBar.background": "#FFFFFF",
+    "statusBar.foreground": "#333333",
+    "statusBar.debuggingBackground": "#EA4036",
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.noFolderBackground": "#888888",
+    "statusBarItem.hoverBackground": "#FFD6D3",
+    "statusBarItem.remoteBackground": "#EA4036",
+    "statusBarItem.remoteForeground": "#FFFFFF",
+
+    // アクティビティバー — 赤に白文字
+    "activityBar.background": "#EA4036",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBar.inactiveForeground": "#FFFFFF80",
+    "activityBar.activeBackground": "#FFFFFF22",
+    "activityBar.activeBorder": "#FFFFFF",
+    "activityBarBadge.background": "#FFFFFF",
+    "activityBarBadge.foreground": "#C5221F"
+  },
+
+  "window.title": "Rubydog Notes",
+  "cSpell.words": ["flutternote", "gitnote", "Rubydog", "rubydogjp"]
+}
