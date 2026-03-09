@@ -10,6 +10,9 @@
         ],
         "flutternote": [
           "rubydogjp-flutternote"
+        ],
+        "notes-redirect": [
+          "rubydogjp-notes"
         ]
       }
     }
