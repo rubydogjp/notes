@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:not(*));
+
+@theme {
+  --font-sans: "Inter", "Noto Sans JP", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  /* gitnote scale: light → dark */
+  --color-gitnote-50:  #fefce8;
+  --color-gitnote-100: #fef9c3;
+  --color-gitnote-200: #fef08a;
+  --color-gitnote-300: #fde047;
+  --color-gitnote-400: #facc15;
+  --color-gitnote-500: #eab308;
+  --color-gitnote-600: #ca8a04;
+  --color-gitnote-700: #a16207;
+  --color-gitnote-800: #854d0e;
+
+  /* action (blue) — "press this" / current position */
+  --color-action-500: #3b82f6;
+  --color-action-600: #2563eb;
+  --color-action-700: #1d4ed8;
+
+  /* success (green) — completion / done */
+  --color-success-500: #22c55e;
+  --color-success-600: #16a34a;
+  --color-success-700: #15803d;
+
+  /* failure (red) — error / warning */
+  --color-failure-500: #ef4444;
+  --color-failure-600: #dc2626;
+
+  /* aliases */
+  --color-link:       var(--color-gitnote-700);
+  --color-link-hover: var(--color-gitnote-800);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Honeycomb background pattern */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}

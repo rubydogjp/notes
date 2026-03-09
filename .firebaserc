@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "rubydog-sites"
+  },
+  "targets": {
+    "rubydog-sites": {
+      "hosting": {
+        "gitnote": [
+          "rubydogjp-gitnote"
+        ],
+        "flutternote": [
+          "rubydogjp-flutternote"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "hosting": [
+    {
+      "target": "gitnote",
+      "public": "gitnote/dist",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [{ "source": "**", "destination": "/index.html" }]
+    },
+    {
+      "target": "flutternote",
+      "public": "flutternote/build/web",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [{ "source": "**", "destination": "/index.html" }]
+    }
+  ]
+}
