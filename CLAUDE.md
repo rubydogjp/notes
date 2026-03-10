@@ -21,10 +21,26 @@ notes/
 - `gitnote` ブランチへ push → gitnote.rubydog.jp デプロイ
 - `flutternote` ブランチへ push → flutternote.rubydog.jp デプロイ
 
-## Firebase Hosting ターゲット
-- gitnote → rubydogjp-gitnote (gitnote.rubydog.jp)
-- flutternote → rubydogjp-flutternote (flutternote.rubydog.jp)
-- Firebase プロジェクト: rubydog-sites
+## Firebase Hosting
+- Firebase プロジェクト: **rubydogcloud**
+- gitnote → rubydogcloud-gitnote (gitnote.rubydog.jp)
+- flutternote → rubydogcloud-flutternote (flutternote.rubydog.jp)
+- GitHub Actions: WIF (Workload Identity Federation) で認証
+  - サービスアカウント: github-actions@rubydogcloud.iam.gserviceaccount.com
+  - WIF プール: projects/56802541923/locations/global/workloadIdentityPools/github-actions/providers/github
+
+## デプロイバージョン判定
+- 各サイトの `index.html` に `<meta name="version" content="__COMMIT_SHA__">` を埋め込み
+- GitHub Actions のビルド後ステップで `__COMMIT_SHA__` を `${{ github.sha }}` に置換
+- 確認方法: `curl -s <サイトURL> | grep 'meta name="version"'`
+- **ローカルビルドでは `__COMMIT_SHA__` のまま残る（正常動作）**
+
+## シークレット・認証情報の取り扱い
+- **コミット禁止**: `.env`, `credentials.json`, サービスアカウントキー (`.json`), API キーなどの秘密情報は絶対にコミットしない
+- **GitHub Actions の認証**: WIF (Workload Identity Federation) を使用。サービスアカウントキーは使わない
+- **Firebase プロジェクト番号** (`56802541923`): ワークフロー内に記載OK（シークレットではない）
+- **環境変数**: 講座サンプルコード内の `firebase_options.dart` に含まれる Firebase config はデモ用プロジェクトのもので公開OK
+- **新しいシークレットが必要になった場合**: GitHub Secrets (`gh secret set`) を使い、ワークフロー内で `${{ secrets.XXX }}` で参照する
 
 ## Git Note (gitnote) 詳細
 
@@ -103,12 +119,18 @@ gitnote/src/
 - Flutter Web (Dart)
 - Riverpod + Flutter Hooks
 - Google Fonts (NotoSansJP)
-- パッケージ名: banana (内部コードネーム)
+- パッケージ名: flutternote
+- ライトテーマ固定（ダークモード無効）
 
 ### 構成
-- lib/hello_rubydog/ : サイト本体（ホーム画面、動画リスト、詳細ページ）
+- lib/site/ : サイト本体（ホーム画面、動画リスト、詳細ページ）
 - lib/part*/ : 各講座パートのサンプルコード
 - assets/ : フォント、画像、スタブデータ
+
+### 旧名称（リネーム済み）
+- パッケージ名: banana → flutternote
+- ディレクトリ: hello_rubydog/ → site/
+- ファイル: nomal_videos → intro_videos, nomal_examples → intro_examples
 
 ## 画像リソースの表示ルール
 - **icon**: 余白なしの透過アイコン。白背景 + 余白のフレーム内に中央配置して表示
