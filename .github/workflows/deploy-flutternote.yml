@@ -31,7 +31,7 @@ jobs:
 
       - name: Build Flutter web
         working-directory: ./flutternote
-        run: flutter build web --base-href=/
+        run: flutter build web --base-href=/ -O4
 
       - name: Stamp commit SHA
         run: sed -i "s/__COMMIT_SHA__/${{ github.sha }}/" flutternote/build/web/index.html
