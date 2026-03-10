@@ -33,6 +33,9 @@ jobs:
         working-directory: ./gitnote
         run: npm run build
 
+      - name: Stamp commit SHA
+        run: sed -i "s/__COMMIT_SHA__/${{ github.sha }}/" gitnote/dist/index.html
+
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
         with:
