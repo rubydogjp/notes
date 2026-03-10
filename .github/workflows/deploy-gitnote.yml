@@ -36,10 +36,10 @@ jobs:
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
         with:
-          workload_identity_provider: projects/1042076784714/locations/global/workloadIdentityPools/github-actions/providers/github
-          service_account: github-actions@rubydog-sites.iam.gserviceaccount.com
+          workload_identity_provider: projects/56802541923/locations/global/workloadIdentityPools/github-actions/providers/github
+          service_account: github-actions@rubydogcloud.iam.gserviceaccount.com
 
       - name: Deploy to Firebase Hosting
         run: |
           export FIREBASE_TOKEN=$(gcloud auth print-access-token)
-          npx firebase-tools deploy --only hosting:gitnote --project=rubydog-sites --non-interactive
+          npx firebase-tools deploy --only hosting:gitnote --project=rubydogcloud --non-interactive
