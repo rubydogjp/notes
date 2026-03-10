@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/riverpod/basic_provider_logic/logic.dart';
-import 'package:banana/riverpod/basic_provider_logic/state.dart';
+import 'package:flutternote/riverpod/basic_provider_logic/logic.dart';
+import 'package:flutternote/riverpod/basic_provider_logic/state.dart';
 
 void main() {
   const app = MyApp();

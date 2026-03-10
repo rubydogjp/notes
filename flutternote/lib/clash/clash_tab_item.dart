@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/clash/clash_tab_route.dart';
-import 'package:banana/clash/state.dart';
-import 'package:banana/clash/bordered_text.dart';
-import 'package:banana/clash/vibration_box.dart';
-import 'package:banana/clash/theme.dart';
-import 'package:banana/clash/toon_shadow.dart';
+import 'package:flutternote/clash/clash_tab_route.dart';
+import 'package:flutternote/clash/state.dart';
+import 'package:flutternote/clash/bordered_text.dart';
+import 'package:flutternote/clash/vibration_box.dart';
+import 'package:flutternote/clash/theme.dart';
+import 'package:flutternote/clash/toon_shadow.dart';
 
 /// タブ 1つ分
 class ClashTabItem extends ConsumerWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:banana/part29/lemon_dialog.dart';
-import 'package:banana/part29/pineapple_dialog.dart';
+import 'package:flutternote/part29/lemon_dialog.dart';
+import 'package:flutternote/part29/pineapple_dialog.dart';
 
 void main() {
   const app = MyApp();

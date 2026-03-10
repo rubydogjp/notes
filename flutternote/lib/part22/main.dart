@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:banana/part22/accordion.dart';
+import 'package:flutternote/part22/accordion.dart';
 
 void main() {
   const app = MyApp();

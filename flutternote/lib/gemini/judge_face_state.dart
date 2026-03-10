@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:banana/gemini/gemini.dart';
+import 'package:flutternote/gemini/gemini.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'judge_face_state.g.dart';
 

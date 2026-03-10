@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:banana/hello_rubydog/theme.dart';
-import 'package:banana/hello_rubydog/step_progress.dart';
-import 'package:banana/hello_rubydog/lecture_list_page.dart';
-import 'package:banana/hello_rubydog/nomal_videos.dart';
-import 'package:banana/hello_rubydog/special_videos.dart';
+import 'package:flutternote/site/theme.dart';
+import 'package:flutternote/site/step_progress.dart';
+import 'package:flutternote/site/lecture_list_page.dart';
+import 'package:flutternote/site/intro_videos.dart';
+import 'package:flutternote/site/special_videos.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// ヘッダー + (StepProgress) + スクロール(child + フッター)
@@ -38,7 +38,7 @@ class _AppShellState extends State<AppShell> {
     final introMatch = RegExp(r'^/intro/(\d+)$').firstMatch(path);
     if (introMatch != null) {
       final index = int.parse(introMatch.group(1)!);
-      if (index >= 0 && index < nomalVideos.length) {
+      if (index >= 0 && index < introVideos.length) {
         return _DetailRoute(LectureCategory.intro, index);
       }
     }

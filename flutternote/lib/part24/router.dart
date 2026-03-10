@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:banana/part24/pages.dart';
+import 'package:flutternote/part24/pages.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:banana/part24/state.dart';
+import 'package:flutternote/part24/state.dart';
 part 'router.g.dart';
 
 /// ---------------------------------------------------------

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:banana/hello_rubydog/theme.dart';
-import 'package:banana/hello_rubydog/video.dart';
-import 'package:banana/hello_rubydog/video_player.dart';
-import 'package:banana/hello_rubydog/lecture_list_page.dart';
-import 'package:banana/hello_rubydog/challenge_data.dart';
+import 'package:flutternote/site/theme.dart';
+import 'package:flutternote/site/video.dart';
+import 'package:flutternote/site/video_player.dart';
+import 'package:flutternote/site/lecture_list_page.dart';
+import 'package:flutternote/site/challenge_data.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// gitnote の SlideViewer レイアウトを再現した講座詳細ページ

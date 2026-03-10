@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:banana/part32/my_timer.dart';
+import 'package:flutternote/part32/my_timer.dart';
 import 'package:intl/intl.dart';
 
 void main() {

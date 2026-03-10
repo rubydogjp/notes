@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:banana/riverpod/basic_provider_logic/state.dart';
+import 'package:flutternote/riverpod/basic_provider_logic/state.dart';
 part 'logic.g.dart';
 
 @riverpod

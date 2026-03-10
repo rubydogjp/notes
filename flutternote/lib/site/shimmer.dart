@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:banana/hello_rubydog/theme.dart';
+import 'package:flutternote/site/theme.dart';
 
 /// シマーアニメーション付きプレースホルダー
 class ShimmerBox extends StatefulWidget {

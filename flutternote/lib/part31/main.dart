@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:banana/part31/realtime.dart';
-import 'package:banana/part31/service.dart';
-import 'package:banana/part31/firebase_options.dart';
+import 'package:flutternote/part31/realtime.dart';
+import 'package:flutternote/part31/service.dart';
+import 'package:flutternote/part31/firebase_options.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() async {

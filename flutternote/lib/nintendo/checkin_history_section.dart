@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:banana/nintendo/colors.dart';
-import 'package:banana/nintendo/images.dart';
-import 'package:banana/nintendo/messages.dart';
-import 'package:banana/nintendo/sizes.dart';
-import 'package:banana/nintendo/text_styles.dart';
+import 'package:flutternote/nintendo/colors.dart';
+import 'package:flutternote/nintendo/images.dart';
+import 'package:flutternote/nintendo/messages.dart';
+import 'package:flutternote/nintendo/sizes.dart';
+import 'package:flutternote/nintendo/text_styles.dart';
 
 /// イベント参加の履歴 セクション
 class CheckinHistorySection extends StatelessWidget {

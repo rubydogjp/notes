@@ -1,11 +1,11 @@
 // ignore_for_file: unused_import
 
 import 'package:flutter/material.dart';
-import 'package:banana/riverpod/my_widget.dart';
-import 'package:banana/riverpod/my_widget_1.dart';
-import 'package:banana/riverpod/my_widget_2.dart';
-import 'package:banana/riverpod/my_widget_3.dart';
-import 'package:banana/riverpod/my_widget_4.dart';
+import 'package:flutternote/riverpod/my_widget.dart';
+import 'package:flutternote/riverpod/my_widget_1.dart';
+import 'package:flutternote/riverpod/my_widget_2.dart';
+import 'package:flutternote/riverpod/my_widget_3.dart';
+import 'package:flutternote/riverpod/my_widget_4.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {

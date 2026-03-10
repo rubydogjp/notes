@@ -1,5 +1,5 @@
 // 他のファイルに書いた Vegetable を使うために import
-import 'package:banana/part19/vegetable.dart';
+import 'package:flutternote/part19/vegetable.dart';
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 part 'recipe.freezed.dart';

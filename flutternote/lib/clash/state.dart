@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/clash/theme.dart';
+import 'package:flutternote/clash/theme.dart';
 
 /// 画面の横移動を管理するページコントローラー
 final pageControllerProvider = Provider(

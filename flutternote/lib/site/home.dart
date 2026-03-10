@@ -1,11 +1,11 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:banana/hello_rubydog/theme.dart';
-import 'package:banana/hello_rubydog/nomal_videos.dart';
-import 'package:banana/hello_rubydog/special_videos.dart';
-import 'package:banana/hello_rubydog/widgets.dart';
-import 'package:banana/hello_rubydog/lecture_list_page.dart';
+import 'package:flutternote/site/theme.dart';
+import 'package:flutternote/site/intro_videos.dart';
+import 'package:flutternote/site/special_videos.dart';
+import 'package:flutternote/site/widgets.dart';
+import 'package:flutternote/site/lecture_list_page.dart';
 
 /// ランディングページ
 class HomePage extends StatelessWidget {
@@ -319,7 +319,7 @@ class _LecturePreviewSection extends StatelessWidget {
   Widget build(BuildContext context) {
     final width = MediaQuery.sizeOf(context).width;
     final isMobile = width < Breakpoints.md;
-    final videos = category == LectureCategory.intro ? nomalVideos : specialVideos;
+    final videos = category == LectureCategory.intro ? introVideos : specialVideos;
     final basePath = category == LectureCategory.intro ? '/intro' : '/special';
     final previewCount = isMobile ? 4 : 6;
     final preview = videos.take(previewCount).toList();

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:banana/part6/banana_counter.dart';
+import 'package:flutternote/part6/banana_counter.dart';
 
 void main() {
   // バナナカウンターを使う

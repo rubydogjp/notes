@@ -1,4 +1,4 @@
-import 'package:banana/qa/others/todo_example2/todo_model.dart';
+import 'package:flutternote/qa/others/todo_example2/todo_model.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'todos_provider.g.dart';
 

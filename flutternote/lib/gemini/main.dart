@@ -1,4 +1,4 @@
-import 'package:banana/gemini/judge_face_page.dart';
+import 'package:flutternote/gemini/judge_face_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

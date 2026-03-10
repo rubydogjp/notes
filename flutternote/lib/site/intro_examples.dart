@@ -1,11 +1,11 @@
 // ignore_for_file: sized_box_for_whitespace
 import 'package:flutter/material.dart';
-import 'package:banana/part12/side_menu.dart';
-import 'package:banana/part6/banana_counter.dart';
-import 'package:banana/part10/main.dart' as part10;
-import 'package:banana/part11/page_a.dart' as part11_a;
-import 'package:banana/part11/page_b.dart' as part11_b;
-import 'package:banana/part11/page_c.dart' as part11_c;
+import 'package:flutternote/part12/side_menu.dart';
+import 'package:flutternote/part6/banana_counter.dart';
+import 'package:flutternote/part10/main.dart' as part10;
+import 'package:flutternote/part11/page_a.dart' as part11_a;
+import 'package:flutternote/part11/page_b.dart' as part11_b;
+import 'package:flutternote/part11/page_c.dart' as part11_c;
 import 'package:go_router/go_router.dart';
 
 class NoExamplePage extends StatelessWidget {

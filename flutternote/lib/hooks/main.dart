@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:banana/hooks/page_1.dart';
-import 'package:banana/hooks/page_2.dart';
-import 'package:banana/hooks/page_3.dart';
-import 'package:banana/hooks/page_4.dart';
+import 'package:flutternote/hooks/page_1.dart';
+import 'package:flutternote/hooks/page_2.dart';
+import 'package:flutternote/hooks/page_3.dart';
+import 'package:flutternote/hooks/page_4.dart';
 
 void main() {
   const app = MyApp();

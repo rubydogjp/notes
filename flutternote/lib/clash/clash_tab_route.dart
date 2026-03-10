@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:banana/clash/fake_page.dart';
-import 'package:banana/clash/theme.dart';
+import 'package:flutternote/clash/fake_page.dart';
+import 'package:flutternote/clash/theme.dart';
 
 /// 画面とアイコンとラベル
 class ClashTabRoute {

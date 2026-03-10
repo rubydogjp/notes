@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/riverpod/override_with/state.dart';
-import 'package:banana/riverpod/override_with/widget.dart';
+import 'package:flutternote/riverpod/override_with/state.dart';
+import 'package:flutternote/riverpod/override_with/widget.dart';
 
 void main() {
   const app = MyApp();

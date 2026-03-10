@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:banana/gemini/judge_face_state.dart';
+import 'package:flutternote/gemini/judge_face_state.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

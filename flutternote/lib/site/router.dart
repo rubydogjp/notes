@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:banana/hello_rubydog/shell.dart';
-import 'package:banana/hello_rubydog/home.dart';
-import 'package:banana/hello_rubydog/lecture_list_page.dart';
-import 'package:banana/hello_rubydog/video_detail_page.dart';
-import 'package:banana/hello_rubydog/nomal_videos.dart';
-import 'package:banana/hello_rubydog/special_videos.dart';
+import 'package:flutternote/site/shell.dart';
+import 'package:flutternote/site/home.dart';
+import 'package:flutternote/site/lecture_list_page.dart';
+import 'package:flutternote/site/video_detail_page.dart';
+import 'package:flutternote/site/intro_videos.dart';
+import 'package:flutternote/site/special_videos.dart';
 
 final router = GoRouter(
   routes: [
@@ -29,7 +29,7 @@ final router = GoRouter(
               pageBuilder: (context, state) {
                 final index =
                     int.tryParse(state.pathParameters['index'] ?? '') ?? 0;
-                final videos = nomalVideos;
+                final videos = introVideos;
                 if (index < 0 || index >= videos.length) {
                   return const NoTransitionPage(child: _NotFoundPage());
                 }

@@ -1,7 +1,7 @@
-import 'package:banana/clash/state.dart';
-import 'package:banana/clash_ex/ex_tab_item.dart';
-import 'package:banana/clash_ex/ex_tab_route.dart';
-import 'package:banana/clash_ex/theme.dart';
+import 'package:flutternote/clash/state.dart';
+import 'package:flutternote/clash_ex/ex_tab_item.dart';
+import 'package:flutternote/clash_ex/ex_tab_route.dart';
+import 'package:flutternote/clash_ex/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

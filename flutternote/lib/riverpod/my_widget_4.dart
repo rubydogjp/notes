@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:banana/riverpod/s4.dart';
+import 'package:flutternote/riverpod/s4.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class MyWidget4 extends ConsumerWidget {

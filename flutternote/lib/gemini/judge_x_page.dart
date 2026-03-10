@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:banana/gemini/judge_x_state.dart';
+import 'package:flutternote/gemini/judge_x_state.dart';
 
 /// 画面 Xの投稿を判定する
 class JudgeXPage extends HookWidget {

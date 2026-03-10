@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:banana/part30/widgets.dart';
+import 'package:flutternote/part30/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {

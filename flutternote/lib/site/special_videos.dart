@@ -1,8 +1,8 @@
-import 'package:banana/hello_rubydog/video.dart';
-import 'package:banana/clash/main.dart' as clash;
-import 'package:banana/hooks/main.dart' as hooks;
-import 'package:banana/nintendo/home.dart' as nintendo;
-import 'package:banana/hello_rubydog/special_examples.dart';
+import 'package:flutternote/site/video.dart';
+import 'package:flutternote/clash/main.dart' as clash;
+import 'package:flutternote/hooks/main.dart' as hooks;
+import 'package:flutternote/nintendo/home.dart' as nintendo;
+import 'package:flutternote/site/special_examples.dart';
 
 final specialVideos = [
   Video(

@@ -1,4 +1,4 @@
-import 'package:banana/qa/others/todo_example2/add_button.dart';
+import 'package:flutternote/qa/others/todo_example2/add_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -7,8 +7,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 // import 'package:simple_memo/.../.../todos_provider.dart';
 
 /* ルビーDogはこっち */
-import 'package:banana/qa/others/todo_example2/colors.dart';
-import 'package:banana/qa/others/todo_example2/todos_provider.dart';
+import 'package:flutternote/qa/others/todo_example2/colors.dart';
+import 'package:flutternote/qa/others/todo_example2/todos_provider.dart';
 
 class CheckBox extends ConsumerWidget {
   const CheckBox({super.key});

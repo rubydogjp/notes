@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/part17/abc_list.dart';
+import 'package:flutternote/part17/abc_list.dart';
 
 // 自分が作った fish.dart ファイルを読み込む
-import 'package:banana/part17/fish.dart';
+import 'package:flutternote/part17/fish.dart';
 
 // 自分が作った abc_list.dart ファイルを読み込む
 

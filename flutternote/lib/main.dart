@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:banana/hello_rubydog/router.dart';
-import 'package:banana/hello_rubydog/theme.dart';
+import 'package:flutternote/site/router.dart';
+import 'package:flutternote/site/theme.dart';
 
 void main() async {
   // URLからハッシュを削除

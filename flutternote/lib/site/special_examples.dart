@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:banana/pixel_color_image/main.dart';
-import 'package:banana/riverpod/my_widget.dart' as riverpod01;
-import 'package:banana/riverpod/my_widget_1.dart' as riverpod03;
-import 'package:banana/riverpod/basic_provider_proxy/widget.dart' as riverpod04;
-import 'package:banana/liveroom/main.dart' as liveroom;
+import 'package:flutternote/pixel_color_image/main.dart';
+import 'package:flutternote/riverpod/my_widget.dart' as riverpod01;
+import 'package:flutternote/riverpod/my_widget_1.dart' as riverpod03;
+import 'package:flutternote/riverpod/basic_provider_proxy/widget.dart' as riverpod04;
+import 'package:flutternote/liveroom/main.dart' as liveroom;
 import 'package:pixel_color_image/pixel_color_image.dart';
 
 class NoExamplePage extends StatelessWidget {

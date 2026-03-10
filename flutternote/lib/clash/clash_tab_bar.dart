@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/clash/clash_tab_item.dart';
-import 'package:banana/clash/clash_tab_route.dart';
-import 'package:banana/clash/state.dart';
-import 'package:banana/clash/theme.dart';
+import 'package:flutternote/clash/clash_tab_item.dart';
+import 'package:flutternote/clash/clash_tab_route.dart';
+import 'package:flutternote/clash/state.dart';
+import 'package:flutternote/clash/theme.dart';
 
 /// タブバー
 class ClashTabBar extends StatelessWidget {

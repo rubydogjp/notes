@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/riverpod/provider_family/widget.dart';
+import 'package:flutternote/riverpod/provider_family/widget.dart';
 
 void main() {
   const app = MayApp();

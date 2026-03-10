@@ -1,5 +1,5 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:banana/riverpod/select/shikoku.dart';
+import 'package:flutternote/riverpod/select/shikoku.dart';
 part 'state.g.dart';
 
 @riverpod

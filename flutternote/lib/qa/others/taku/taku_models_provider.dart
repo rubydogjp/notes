@@ -1,4 +1,4 @@
-import 'package:banana/qa/others/taku/taku_model.dart';
+import 'package:flutternote/qa/others/taku/taku_model.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'taku_models_provider.g.dart';
 

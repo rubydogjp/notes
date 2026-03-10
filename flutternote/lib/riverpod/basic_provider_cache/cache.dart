@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter/foundation.dart';
-import 'package:banana/riverpod/basic_provider_cache/state.dart';
+import 'package:flutternote/riverpod/basic_provider_cache/state.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'cache.g.dart';

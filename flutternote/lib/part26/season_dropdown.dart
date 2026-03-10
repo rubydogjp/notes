@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:banana/part26/season.dart';
+import 'package:flutternote/part26/season.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// 季節を選ぶドロップダウン

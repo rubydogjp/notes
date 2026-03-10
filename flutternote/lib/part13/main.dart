@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/part13/page_a.dart';
-import 'package:banana/part13/page_b.dart';
-import 'package:banana/part13/page_c.dart';
+import 'package:flutternote/part13/page_a.dart';
+import 'package:flutternote/part13/page_b.dart';
+import 'package:flutternote/part13/page_c.dart';
 
 main() {
   // アプリ

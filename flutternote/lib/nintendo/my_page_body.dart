@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:banana/nintendo/checkin_history_section.dart';
-import 'package:banana/nintendo/colors.dart';
-import 'package:banana/nintendo/fixtures.dart';
-import 'package:banana/nintendo/gap.dart';
-import 'package:banana/nintendo/play_history_section.dart';
-import 'package:banana/nintendo/point_section.dart';
-import 'package:banana/nintendo/sizes.dart';
-import 'package:banana/nintendo/user_history_section.dart';
+import 'package:flutternote/nintendo/checkin_history_section.dart';
+import 'package:flutternote/nintendo/colors.dart';
+import 'package:flutternote/nintendo/fixtures.dart';
+import 'package:flutternote/nintendo/gap.dart';
+import 'package:flutternote/nintendo/play_history_section.dart';
+import 'package:flutternote/nintendo/point_section.dart';
+import 'package:flutternote/nintendo/sizes.dart';
+import 'package:flutternote/nintendo/user_history_section.dart';
 
 class MyPageBody extends StatelessWidget {
   const MyPageBody({

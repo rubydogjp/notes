@@ -1,4 +1,4 @@
-import 'package:banana/clash_ex/fake_page.dart';
+import 'package:flutternote/clash_ex/fake_page.dart';
 import 'package:flutter/material.dart';
 
 class ExTabRoute {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:banana/part11/page_a.dart';
-import 'package:banana/part11/page_b.dart';
-import 'package:banana/part11/page_c.dart';
+import 'package:flutternote/part11/page_a.dart';
+import 'package:flutternote/part11/page_b.dart';
+import 'package:flutternote/part11/page_c.dart';
 import 'package:go_router/go_router.dart';
 
 /*

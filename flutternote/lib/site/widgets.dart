@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:banana/hello_rubydog/theme.dart';
-import 'package:banana/hello_rubydog/video.dart';
-import 'package:banana/hello_rubydog/shimmer.dart';
+import 'package:flutternote/site/theme.dart';
+import 'package:flutternote/site/video.dart';
+import 'package:flutternote/site/shimmer.dart';
 
 /// ビデオカード — 講座一覧・プレビューで使用（シマー付き）
 class VideoCard extends StatefulWidget {

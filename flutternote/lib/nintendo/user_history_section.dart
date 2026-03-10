@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:banana/nintendo/checkin_history_item.dart';
-import 'package:banana/nintendo/colors.dart';
-import 'package:banana/nintendo/gap.dart';
-import 'package:banana/nintendo/messages.dart';
-import 'package:banana/nintendo/play_history_item.dart';
-import 'package:banana/nintendo/sizes.dart';
-import 'package:banana/nintendo/text_styles.dart';
+import 'package:flutternote/nintendo/checkin_history_item.dart';
+import 'package:flutternote/nintendo/colors.dart';
+import 'package:flutternote/nintendo/gap.dart';
+import 'package:flutternote/nintendo/messages.dart';
+import 'package:flutternote/nintendo/play_history_item.dart';
+import 'package:flutternote/nintendo/sizes.dart';
+import 'package:flutternote/nintendo/text_styles.dart';
 
 class UserHistorySection extends StatelessWidget {
   const UserHistorySection({

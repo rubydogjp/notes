@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/riverpod/basic_provider_proxy/proxy.dart';
+import 'package:flutternote/riverpod/basic_provider_proxy/proxy.dart';
 
 // ウィジェット
 class MyWidget extends ConsumerWidget {

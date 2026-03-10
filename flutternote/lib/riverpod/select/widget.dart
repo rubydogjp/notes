@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/riverpod/select/state.dart';
+import 'package:flutternote/riverpod/select/state.dart';
 
 class MyWidget extends ConsumerWidget {
   const MyWidget({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:banana/riverpod/provider_scope/state.dart';
+import 'package:flutternote/riverpod/provider_scope/state.dart';
 
 main() {
   const app = MyApp(

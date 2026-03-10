@@ -1,4 +1,4 @@
-import 'package:banana/gemini/gemini.dart';
+import 'package:flutternote/gemini/gemini.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'judge_x_state.g.dart';
 

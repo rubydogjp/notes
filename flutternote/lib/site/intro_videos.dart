@@ -1,26 +1,26 @@
-import 'package:banana/hello_rubydog/nomal_examples.dart';
-import 'package:banana/hello_rubydog/video.dart';
-import 'package:banana/part9/main.dart' as part09;
-import 'package:banana/part13/main.dart' as part13;
-import 'package:banana/part14/main.dart' as part14;
-import 'package:banana/part15/main.dart' as part15;
-import 'package:banana/part16/main.dart' as part16;
-import 'package:banana/part17/main.dart' as part17;
-import 'package:banana/part18/main.dart' as part18;
-import 'package:banana/part20/main.dart' as part20;
-import 'package:banana/part22/main.dart' as part22;
-import 'package:banana/part23/main.dart' as part23;
-import 'package:banana/part24/router.dart' as part24;
-import 'package:banana/part25/main.dart' as part25;
-import 'package:banana/part26/main.dart' as part26;
-import 'package:banana/part27/main.dart' as part27;
-import 'package:banana/part28/main.dart' as part28;
-import 'package:banana/part29/main.dart' as part29;
-import 'package:banana/part30/main.dart' as part30;
-import 'package:banana/part31/main.dart' as part31;
-import 'package:banana/part32/main.dart' as part32;
+import 'package:flutternote/site/intro_examples.dart';
+import 'package:flutternote/site/video.dart';
+import 'package:flutternote/part9/main.dart' as part09;
+import 'package:flutternote/part13/main.dart' as part13;
+import 'package:flutternote/part14/main.dart' as part14;
+import 'package:flutternote/part15/main.dart' as part15;
+import 'package:flutternote/part16/main.dart' as part16;
+import 'package:flutternote/part17/main.dart' as part17;
+import 'package:flutternote/part18/main.dart' as part18;
+import 'package:flutternote/part20/main.dart' as part20;
+import 'package:flutternote/part22/main.dart' as part22;
+import 'package:flutternote/part23/main.dart' as part23;
+import 'package:flutternote/part24/router.dart' as part24;
+import 'package:flutternote/part25/main.dart' as part25;
+import 'package:flutternote/part26/main.dart' as part26;
+import 'package:flutternote/part27/main.dart' as part27;
+import 'package:flutternote/part28/main.dart' as part28;
+import 'package:flutternote/part29/main.dart' as part29;
+import 'package:flutternote/part30/main.dart' as part30;
+import 'package:flutternote/part31/main.dart' as part31;
+import 'package:flutternote/part32/main.dart' as part32;
 
-final nomalVideos = [
+final introVideos = [
   Video(
     '入門 01',
     'flut01.png',

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:banana/hello_rubydog/theme.dart';
-import 'package:banana/hello_rubydog/nomal_videos.dart';
-import 'package:banana/hello_rubydog/special_videos.dart';
-import 'package:banana/hello_rubydog/video.dart';
-import 'package:banana/hello_rubydog/widgets.dart';
+import 'package:flutternote/site/theme.dart';
+import 'package:flutternote/site/intro_videos.dart';
+import 'package:flutternote/site/special_videos.dart';
+import 'package:flutternote/site/video.dart';
+import 'package:flutternote/site/widgets.dart';
 
 enum LectureCategory {
   intro,
@@ -21,7 +21,7 @@ enum LectureCategory {
       };
 
   List<Video> get videos => switch (this) {
-        LectureCategory.intro => nomalVideos,
+        LectureCategory.intro => introVideos,
         LectureCategory.special => specialVideos,
       };
 }

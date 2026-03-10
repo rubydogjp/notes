@@ -1,4 +1,4 @@
-import 'package:banana/qa/others/todo_example/todo_model.dart';
+import 'package:flutternote/qa/others/todo_example/todo_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 // ビューモデル

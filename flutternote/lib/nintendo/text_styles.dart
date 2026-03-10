@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:banana/nintendo/colors.dart';
-import 'package:banana/nintendo/sizes.dart';
+import 'package:flutternote/nintendo/colors.dart';
+import 'package:flutternote/nintendo/sizes.dart';
 
 class MyTextStyles {
   // XLサイズ 太字

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:banana/part30/state.dart';
+import 'package:flutternote/part30/state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// ドリンクを表示

@@ -1,4 +1,4 @@
-import 'package:banana/part30/kv.dart';
+import 'package:flutternote/part30/kv.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'state.g.dart';
 
